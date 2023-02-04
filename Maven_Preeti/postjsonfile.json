@@ -1,0 +1,19 @@
+{
+      "firstname": "{{f_name}}",
+      "Address": [
+        {
+          "Type": "First Inner",
+          "House No": "23",
+          "SEctor": "34"
+        },
+        {
+          "Type": "Second Inner",
+          "House No": "50",
+          "SEctor": "100"
+        }
+      ],
+      "course": "API",
+      "id": "{{id}}",
+      "Surname": "Chhabra"
+    }
+   

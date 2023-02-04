@@ -18,7 +18,7 @@ public class postrequest_maven
 		JSONObject ob = new JSONObject();
 		ob.put("firstname", "Preeti");
 		ob.put("Surname", "Chhabra");
-		ob.put("id", "901");
+		ob.put("id", "911");
 		ob.put("course", "API");
 		System.out.println(ob);
 		Response res=
