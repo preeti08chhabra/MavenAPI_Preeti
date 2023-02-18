@@ -4,6 +4,8 @@ public class dummykeys
 {
 private String f_name;
 private String sur_name;
+private pojoaddress ref_address;
+private adds_arraypojo[] arrayadds;
 public String getF_name() {
 	return f_name;
 }
@@ -30,4 +32,18 @@ public void setDesg(String desg) {
 }
 private String id;
 private String desg;
+
+public pojoaddress getRef_address() {
+	return ref_address;
+}
+public void setRef_address(pojoaddress ref_address) {
+	this.ref_address = ref_address;
+}
+public adds_arraypojo[] getArrayadds() {
+	return arrayadds;
+}
+public void setArrayadds(adds_arraypojo[] arrayadds) {
+	this.arrayadds = arrayadds;
+}
+
 }
