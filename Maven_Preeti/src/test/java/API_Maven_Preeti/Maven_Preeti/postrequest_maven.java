@@ -2,6 +2,7 @@
 //bodydata simple json using org.json
 package API_Maven_Preeti.Maven_Preeti;
 
+
 import org.json.JSONObject;
 
 import io.restassured.http.ContentType;
@@ -13,12 +14,11 @@ public class postrequest_maven
 {
 	public static void main(String[] args)
 	{
-		
-		
+			
 		JSONObject ob = new JSONObject();
 		ob.put("firstname", "Preeti");
 		ob.put("Surname", "Chhabra");
-		ob.put("id", "911");
+		ob.put("id", "915");
 		ob.put("course", "API");
 		System.out.println(ob);
 		Response res=
