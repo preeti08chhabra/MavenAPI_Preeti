@@ -12,11 +12,13 @@ public static void main(String[] args)
 			.contentType(ContentType.JSON)
 			.when()
 			.get("http://localhost:3000/Students");
-			//System.out.println(r.asString());
-			String adds = r.jsonPath().getString("[4].Address.Area");
+			System.out.println(r.asString());
+			System.out.println("Status code is " +r.getStatusCode());
+			
+			String adds = r.jsonPath().getString("[3].Address.District");
 			System.out.println("Address is  " +adds);
 			
-			String sec = r.jsonPath().getString("[4].Address.Sector");
+			String sec = r.jsonPath().getString("[3].Address.Sector");
 			System.out.println("Sector is  " +sec);
-			}
+		}
 }
